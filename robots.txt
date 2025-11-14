@@ -1,0 +1,16 @@
+User-agent: *
+# Permitir todo por defecto
+Disallow:
+
+# Bloquear rutas sensibles por seguridad (ajusta si no aplican)
+Disallow: /cgi-bin/
+Disallow: /server-status
+Disallow: /admin/
+Disallow: /temp_create_user/
+Disallow: /diagnostico-login/
+
+# Sitemap
+Sitemap: https://calefon.uy/sitemap.xml
+
+# Crawl-delay para crawlers que lo soportan (Google lo ignora)
+Crawl-delay: 1

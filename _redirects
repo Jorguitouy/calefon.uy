@@ -1,0 +1,57 @@
+# Redirecciones 301: Directorios de marcas con Mayúscula y barra → minúscula SIN barra
+/Ariston/        /ariston             301
+/Atlantic/       /atlantic            301
+/Beusa/          /beusa               301
+/Bosch/          /bosch               301
+/Brillant/       /brilliant           301
+/Brilliant/      /brilliant           301
+/Bronx/          /bronx               301
+/Collerati/      /collerati           301
+/Cyprium/        /cyprium             301
+/Delne/          /delne               301
+/Dikler/         /dikler              301
+/Eldom/          /eldom               301
+/Enxuta/         /enxuta              301
+/Fagor/          /fagor               301
+/Ganim/          /ganim               301
+/Geloso/         /geloso              301
+/Hyundai/        /hyundai             301
+/Ideal/          /ideal               301
+/Ima/            /ima                 301
+/James/          /james               301
+/Joya/           /joya                301
+/Kroser/         /kroser              301
+/Midea/          /midea               301
+/Orion/          /orion               301
+/Pacific/        /pacific             301
+/Panavox/        /panavox             301
+/Peabody/        /peabody             301
+/Punktal/        /punktal             301
+/Queen/          /queen               301
+/Rotel/          /rotel               301
+/Sevan/          /sevan               301
+/Sirium/         /sirium              301
+/Smartlife/      /smartlife           301
+/Steigleder/     /steigleder          301
+/Telefunken/     /telefunken          301
+/Tem/            /tem                 301
+/Thermor/        /thermor             301
+/Thompson/       /thompson            301
+/Ufesa/          /ufesa               301
+/Warners/        /warners             301
+/Wnr/            /wnr                 301
+/Xion/           /xion                301
+/Zero-watt/      /zero-watt           301
+
+# Redirecciones 301: Corrección de marca Brillant → Brilliant
+/brillant         /brilliant           301
+/brillant/        /brilliant           301
+
+# Redirecciones 301: Instalación genérica
+/instalacion-calefones     /instalacion-de-termotanques   301
+/instalacion-calefones/    /instalacion-de-termotanques   301
+
+# Redirecciones 301: Legado /en → ES
+/en               /                    301
+/en/              /                    301
+/en/*             /:splat              301

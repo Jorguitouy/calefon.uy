@@ -1,0 +1,17 @@
+name: Ping search engines with sitemap
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Todos los días a las 03:00 UTC
+  workflow_dispatch:      # Permitir ejecución manual
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Google with sitemap
+        run: |
+          curl -sS "https://www.google.com/ping?sitemap=https://calefon.uy/sitemap.xml" || true
+      - name: Ping Bing with sitemap
+        run: |
+          curl -sS "https://www.bing.com/ping?sitemap=https://calefon.uy/sitemap.xml" || true

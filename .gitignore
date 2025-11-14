@@ -1,0 +1,26 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+
+# Estado local de Wrangler (no versionar)
+.wrangler/
+
+# Archivos temporales y del SO
+.DS_Store
+Thumbs.db
+
+# Archivos zip y binarios temporales
+*.zip
+
+# Logs
+*.log
+
+# Credenciales de Google Cloud (NO SUBIR)
+google-indexing-credentials.json
+*-credentials.json
+service-account*.json
+
+# Backups y artefactos locales
+*.bak
+__pycache__/
+reports/
